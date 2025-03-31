@@ -47,7 +47,7 @@ It first sets a global variable "$connection" that will be used to store the con
 
 9. Custom 404 error page (error_page.php and .htaccess)
 
-.htaccess: is an Apache server configuration directive that specifies a custom error page to be displayed when a 404 error occurs. A 404 error occurs when the requested URL is not found on the server. In this case, when a 404 error occurs, the server will display the custom error page located at "/~ademetriou5/Demetriou-Alexis_G20970098_assignment-two/error_page.php". This allows the website owner to provide a more user-friendly and informative error page to the visitors.
+.htaccess: is an Apache server configuration directive that specifies a custom error page to be displayed when a 404 error occurs. A 404 error occurs when the requested URL is not found on the server. In this case, when a 404 error occurs, the server will display the custom error page located at "/~tklochko-shemiakin/Tymofii-Klochko-Shemiakin-Union-Shop-2/error_page.php". This allows the website owner to provide a more user-friendly and informative error page to the visitors.
 
 error_page.php: the page provides a user-friendly 404 error page that informs the user that the requested page could not be found and offers alternative navigation options.
 
