@@ -1,6 +1,36 @@
 # Student-s-Union-Shop-2
 A simple php&amp;MySQL integration 
+Github repository: github.com/tklocshem/Union-Shop-Web-Store
+To get access to it:  vesta.uclan.ac.uk/~ademetriou5/Demetriou-Alexis_G20970098_assignment-two/](https://vesta.uclan.ac.uk/~tklochko-shemiakin/assignment-2/index.php)
 
+Example Login Account:
+
+Email: exampleAccount@example.com
+Password: User12345!
+
+Main features of this backend :
+User registration: the application allows the functionality to sign up new users.
+
+Neatly Structured Code: The code is organized and structured in a clean and maintainable manner.
+
+Calculated product reviews: reviews are calacluated, averaged and displayed, providing users an overall rating for a product.
+
+Product information page: the web application has been modified from assessment 1, removing the sessionStorage HTML5 API to use PHP GET method variables in order to access the page information. This is used when a user clicks an item to reveal more information, the PHP retrieves the data from the database and presents on an item.php page.
+
+Submit/Present reviews: logged in users are presented with an option to leave a review. A review includes a title, description and rating. Reviews are presented for each product item (tbl_reviews) even if the user is not logged in.
+
+Secure passwords: passwords are stored using bcrypt hashing and salting and not raw text.
+
+Sign Up Functionality: the application provides a user-friendly sign-up functionality that allows new users to create an account. The sign-up process includes input validation, password strength checks, and email verification to ensure a secure and smooth registration experience. Users can then log in with their newly created accounts to access the shopping cart and other features.
+
+Responsive Dynamic Content: the website's dynamic content is responsive and adapts to different screen sizes and devices.
+
+Professional Looking and Functional Web Application: The website has a professional look and feel, providing a pleasant user experience.
+
+User Order List View: The application provides a dedicated order list view for logged-in users, allowing them to easily track their past and current orders. This feature includes information about each order, such as order date and items purchased.
+
+
+Brief of this project:
 
 This website allows the shopper to browse the firm's range of products and services, view product photos or images, and view product pricing information. Customers can shop online using a variety of computers and devices, including desktops, laptops, tablets, and smartphones.
 1. Home (index.php)
