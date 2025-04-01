@@ -1,8 +1,12 @@
+<!--connect.php-->
+<!--Author: Tymofii Klochko-Shemiakin (G21253710)-->
+<!--Email: tklochko-shemiakin@uclan.ac.uk-->
+
 <?php
 $host = "localhost"; 
 $dbname = "tklochko-shemiakin";
 $username = "tklochko-shemiakin";
-$password = "usUrfdMQhZ";
+$password = "usUrfdMQhZ"; <!-- All these variables to connect to my Database, using dbname and credentials
 
 try {
     $conn = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username, $password);
