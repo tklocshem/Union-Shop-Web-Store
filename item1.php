@@ -1,3 +1,7 @@
+<!--item.php-->
+<!--Author: Tymofii Klochko-Shemiakin (G21253710)-->
+<!--Email: tklochko-shemiakin@uclan.ac.uk-->
+
 <?php
 session_start();
 include 'connect.php';
@@ -69,7 +73,7 @@ if (!$product) {
     exit();
 }
 
-// Handle review submission
+// Add this code to display the reviews
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_SESSION["user_id"])) {
     $title = trim($_POST['review_title']);
     $description = trim($_POST['review_description']);
