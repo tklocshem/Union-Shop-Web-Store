@@ -1,3 +1,8 @@
+<!--checkout.php-->
+<!--Author: Tymofii Klochko-Shemiakin (G21253710)-->
+<!--Email: tklochko-shemiakin@uclan.ac.uk-->
+
+
 <?php
 session_start();
 include 'connect.php';
