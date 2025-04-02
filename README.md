@@ -72,13 +72,6 @@ The page has a PHP script that starts a new session or resumes an existing one u
 8. Connect to a MySQL database (connect.php)
 
 The page has a PHP script that establishes a connection to a MySQL database.
-
-It first sets a global variable "$connection" that will be used to store the connection object. Then, it uses the mysqli_connect function to attempt to connect to the database. If the connection fails (i.e., there is an error), the mysqli_connect_errno function will return a non-zero value. In this case, the code will enter the if statement and print an error message using the mysqli_connect_error function, which returns a human-readable description of the error.
-
-9. Custom 404 error page (error_page.php and .htaccess)
-
-A 404 error occurs when the requested URL is not found on the server. In this case, when a 404 error occurs, the server will display the custom error page located at "/~tklochko-shemiakin/assignment-2/error_page.php". This allows the website owner to provide a more user-friendly and informative error page to the visitors.
-
 error_page.php: the page provides a user-friendly 404 error page that informs the user that the requested page could not be found and offers alternative navigation options.
 
 10. Checkout (checkout.php)
