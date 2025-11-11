@@ -1,8 +1,6 @@
 # Student-s-Union-Shop-2
 A simple php&amp;MySQL integration 
 Github repository: github.com/tklocshem/Union-Shop-Web-Store
-To get access to it:  vesta.uclan.ac.uk/~ademetriou5/Demetriou-Alexis_G20970098_assignment-two/](https://vesta.uclan.ac.uk/~tklochko-shemiakin/assignment-2/index.php)
-
 Example Login Account:
 
 Email: exampleAccount@example.com
